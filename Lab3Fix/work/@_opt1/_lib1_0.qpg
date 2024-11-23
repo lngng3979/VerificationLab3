@@ -1,0 +1,475 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/6. 20241/3. Verify/mux_2_to_1
+T_opt
+!s110 1730514873
+Vaj?3@JLFJgL6;f6h4FjLe3
+Z1 04 16 4 work Execute_test_top fast 0
+=1-ac50de49e8df-67258fb9-165-4d20
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1730514894
+V`c]B216`dHgT4MLme8kjc3
+R1
+=1-ac50de49e8df-67258fce-21d-21b8
+o-quiet -auto_acc_if_foreign -work work +acc
+R2
+n@_opt1
+R3
+vALU
+Z4 !s110 1730514856
+!i10b 1
+!s100 EeM=MIKSz?bCYiS6jFJB51
+Ia55SS53SKe=K[eO5;IHTn0
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+!i119 1
+Z6 dD:/6. 20241/3. Verify/LAB/Lab3
+Z7 w1730434755
+8D:/6. 20241/3. Verify/LAB/Lab3/ALU.vp
+FD:/6. 20241/3. Verify/LAB/Lab3/ALU.vp
+L0 2
+Z8 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z9 !s108 1730514856.000000
+!s107 data_defs.v|D:/6. 20241/3. Verify/LAB/Lab3/ALU.vp|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/6. 20241/3. Verify/LAB/Lab3/ALU.vp|
+!i113 0
+Z10 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@a@l@u
+vALU_testbench
+Z11 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+!s110 1730512830
+!i10b 1
+!s100 BOQgfjJSa@Q=>n:IQTUA40
+Iz=zULenRKGR7H?M[]k<>E0
+R5
+!s105 ALU_testbench_sv_unit
+S1
+R6
+w1730489772
+8D:/6. 20241/3. Verify/LAB/Lab3/ALU_testbench.sv
+FD:/6. 20241/3. Verify/LAB/Lab3/ALU_testbench.sv
+L0 3
+R8
+r1
+!s85 0
+31
+!s108 1730512830.000000
+!s107 D:/6. 20241/3. Verify/LAB/Lab3/ALU_testbench.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/6. 20241/3. Verify/LAB/Lab3/ALU_testbench.sv|
+!i113 0
+Z12 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@a@l@u_testbench
+vArith_ALU
+R4
+!i10b 1
+!s100 48V?9f>b@;Qig]ZOgQzM;0
+IGjJaXUn^8mgO`Nb`lPO<b2
+R5
+!i119 1
+R6
+R7
+8D:/6. 20241/3. Verify/LAB/Lab3/Arith_ALU.vp
+FD:/6. 20241/3. Verify/LAB/Lab3/Arith_ALU.vp
+L0 2
+R8
+r1
+!s85 0
+31
+R9
+!s107 data_defs.v|D:/6. 20241/3. Verify/LAB/Lab3/Arith_ALU.vp|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/6. 20241/3. Verify/LAB/Lab3/Arith_ALU.vp|
+!i113 0
+R10
+R2
+n@arith_@a@l@u
+XDriver_sv_unit
+Z13 !s115 Execute_io
+R11
+Z14 !s110 1730514857
+!i10b 1
+!s100 FnJ_dCFOYGgE0j5MC9zN11
+I:BAT<g09hH_CACMdz0loD1
+V:BAT<g09hH_CACMdz0loD1
+!i103 1
+S1
+R6
+Z15 w1730512764
+8D:/6. 20241/3. Verify/LAB/Lab3/Driver.sv
+FD:/6. 20241/3. Verify/LAB/Lab3/Driver.sv
+Z16 Fdata_defs.v
+Z17 FPacket.sv
+Z18 FDriverBase.sv
+L0 5
+R8
+r1
+!s85 0
+31
+Z19 !s108 1730514857.000000
+!s107 DriverBase.sv|Packet.sv|data_defs.v|D:/6. 20241/3. Verify/LAB/Lab3/Driver.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/6. 20241/3. Verify/LAB/Lab3/Driver.sv|
+!i113 0
+R12
+R2
+n@driver_sv_unit
+XDriverBase_sv_unit
+R13
+R11
+R14
+!i10b 1
+!s100 BZ]@Z2f4F1?2>:agc1i<20
+I_;lmGB7_hD;ziM6i=ijR83
+V_;lmGB7_hD;ziM6i=ijR83
+!i103 1
+S1
+R6
+R15
+8D:/6. 20241/3. Verify/LAB/Lab3/DriverBase.sv
+FD:/6. 20241/3. Verify/LAB/Lab3/DriverBase.sv
+R16
+R17
+L0 5
+R8
+r1
+!s85 0
+31
+R19
+!s107 Packet.sv|data_defs.v|D:/6. 20241/3. Verify/LAB/Lab3/DriverBase.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/6. 20241/3. Verify/LAB/Lab3/DriverBase.sv|
+!i113 0
+R12
+R2
+n@driver@base_sv_unit
+YDUT_probe_if
+R11
+R14
+!i10b 1
+!s100 YKBkP`@MmU?f7dm0^<0>l0
+IS4FLOMWmV28fgcV>Y9i0S3
+R5
+Z20 !s105 Execute_if_sv_unit
+S1
+R6
+R7
+Z21 8D:/6. 20241/3. Verify/LAB/Lab3/Execute.if.sv
+Z22 FD:/6. 20241/3. Verify/LAB/Lab3/Execute.if.sv
+L0 35
+R8
+r1
+!s85 0
+31
+R19
+Z23 !s107 data_defs.v|D:/6. 20241/3. Verify/LAB/Lab3/Execute.if.sv|
+Z24 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/6. 20241/3. Verify/LAB/Lab3/Execute.if.sv|
+!i113 0
+R12
+R2
+n@d@u@t_probe_if
+vEx_Preproc
+R14
+!i10b 1
+!s100 jzGOJYGB1W^FbYl:m`XEG1
+IBO@CjSOLbQilK<aU@61fQ1
+R5
+!i119 1
+R6
+R7
+8D:/6. 20241/3. Verify/LAB/Lab3/Ex_Preproc.vp
+FD:/6. 20241/3. Verify/LAB/Lab3/Ex_Preproc.vp
+L0 2
+R8
+r1
+!s85 0
+31
+R19
+!s107 data_defs.v|D:/6. 20241/3. Verify/LAB/Lab3/Ex_Preproc.vp|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/6. 20241/3. Verify/LAB/Lab3/Ex_Preproc.vp|
+!i113 0
+R10
+R2
+n@ex_@preproc
+YExecute_io
+R11
+R14
+!i10b 1
+!s100 mR9=DhK:W2?BzaK>J2GKP2
+IU<HFleIJ?Lz>3H@Rm3J7[3
+R5
+R20
+S1
+R6
+R7
+R21
+R22
+L0 2
+R8
+r1
+!s85 0
+31
+R19
+R23
+R24
+!i113 0
+R12
+R2
+n@execute_io
+XExecute_tb_sv_unit
+Z25 !s115 DUT_probe_if
+R13
+R11
+V4PbdC6G;m1S8HLSIa[?zi0
+r1
+!s85 0
+!i10b 1
+!s100 `FW9S<CcMMCRgIWER6kKQ1
+I4PbdC6G;m1S8HLSIa[?zi0
+!i103 1
+S1
+R6
+Z26 w1730514846
+Z27 8D:/6. 20241/3. Verify/LAB/Lab3/Execute.tb.sv
+Z28 FD:/6. 20241/3. Verify/LAB/Lab3/Execute.tb.sv
+R16
+FGenerator.sv
+R17
+FDriver.sv
+R18
+FScoreboard.sv
+Z29 FOutputPacket.sv
+FReceiver.sv
+Z30 FReceiverBase.sv
+L0 5
+R8
+31
+R19
+Z31 !s107 ReceiverBase.sv|Receiver.sv|OutputPacket.sv|Scoreboard.sv|DriverBase.sv|Driver.sv|Packet.sv|Generator.sv|data_defs.v|D:/6. 20241/3. Verify/LAB/Lab3/Execute.tb.sv|
+Z32 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/6. 20241/3. Verify/LAB/Lab3/Execute.tb.sv|
+!i113 0
+R12
+R2
+n@execute_tb_sv_unit
+4Execute_test
+R11
+DXx4 work 18 Execute_tb_sv_unit 0 22 4PbdC6G;m1S8HLSIa[?zi0
+R5
+r1
+!s85 0
+!i10b 1
+!s100 OJaFm`Y8[OYjj^5ICIkQT0
+I``gHjhJoU=^7C_m7n_TQ01
+!s105 Execute_tb_sv_unit
+S1
+R6
+R26
+R27
+R28
+L0 9
+R8
+31
+R19
+R31
+R32
+!i113 0
+R12
+R2
+n@execute_test
+vExecute_test_top
+R11
+R14
+!i10b 1
+!s100 d=BGflUW]=oBc=FgBWT5c0
+I`E_>CilUbmb0:;i=7LaaM1
+R5
+!s105 Execute_test_top_sv_unit
+S1
+R6
+w1730486676
+8D:/6. 20241/3. Verify/LAB/Lab3/Execute.test_top.sv
+FD:/6. 20241/3. Verify/LAB/Lab3/Execute.test_top.sv
+L0 3
+R8
+r1
+!s85 0
+31
+R19
+!s107 data_defs.v|D:/6. 20241/3. Verify/LAB/Lab3/Execute.test_top.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/6. 20241/3. Verify/LAB/Lab3/Execute.test_top.sv|
+!i113 0
+R12
+R2
+n@execute_test_top
+XGenerator_sv_unit
+R11
+R14
+!i10b 1
+!s100 lU?;>a]ICBFD]loZ?RJ0N0
+Ii6zfKcI`[iahW8i8Lh5e>3
+Vi6zfKcI`[iahW8i8Lh5e>3
+!i103 1
+S1
+R6
+R15
+8D:/6. 20241/3. Verify/LAB/Lab3/Generator.sv
+FD:/6. 20241/3. Verify/LAB/Lab3/Generator.sv
+R17
+R16
+L0 5
+R8
+r1
+!s85 0
+31
+R19
+!s107 data_defs.v|Packet.sv|D:/6. 20241/3. Verify/LAB/Lab3/Generator.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/6. 20241/3. Verify/LAB/Lab3/Generator.sv|
+!i113 0
+R12
+R2
+n@generator_sv_unit
+XOutputPacket_sv_unit
+R11
+R14
+!i10b 1
+!s100 R]imfkcHJd8UFe4Go4F6>3
+IWhoJhHIPa:mQW@7YfeMX02
+VWhoJhHIPa:mQW@7YfeMX02
+!i103 1
+S1
+R6
+R15
+8D:/6. 20241/3. Verify/LAB/Lab3/OutputPacket.sv
+FD:/6. 20241/3. Verify/LAB/Lab3/OutputPacket.sv
+R16
+L0 5
+R8
+r1
+!s85 0
+31
+R19
+!s107 data_defs.v|D:/6. 20241/3. Verify/LAB/Lab3/OutputPacket.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/6. 20241/3. Verify/LAB/Lab3/OutputPacket.sv|
+!i113 0
+R12
+R2
+n@output@packet_sv_unit
+XPacket_sv_unit
+R11
+R14
+!i10b 1
+!s100 CgTP6KWNJ;^zdcCS^^;?53
+IOA_i2kcEd2aFe^75ek=OQ0
+VOA_i2kcEd2aFe^75ek=OQ0
+!i103 1
+S1
+R6
+R15
+8D:/6. 20241/3. Verify/LAB/Lab3/Packet.sv
+FD:/6. 20241/3. Verify/LAB/Lab3/Packet.sv
+R16
+L0 5
+R8
+r1
+!s85 0
+31
+R19
+!s107 data_defs.v|D:/6. 20241/3. Verify/LAB/Lab3/Packet.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/6. 20241/3. Verify/LAB/Lab3/Packet.sv|
+!i113 0
+R12
+R2
+n@packet_sv_unit
+XReceiver_sv_unit
+R25
+R13
+R11
+R14
+!i10b 1
+!s100 PgOnMUPA54k3`faj8iC9E1
+IzKVSH:?kZWY:eHedW9VWc2
+VzKVSH:?kZWY:eHedW9VWc2
+!i103 1
+S1
+R6
+R15
+8D:/6. 20241/3. Verify/LAB/Lab3/Receiver.sv
+FD:/6. 20241/3. Verify/LAB/Lab3/Receiver.sv
+R30
+R29
+R16
+L0 5
+R8
+r1
+!s85 0
+31
+R19
+!s107 data_defs.v|OutputPacket.sv|ReceiverBase.sv|D:/6. 20241/3. Verify/LAB/Lab3/Receiver.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/6. 20241/3. Verify/LAB/Lab3/Receiver.sv|
+!i113 0
+R12
+R2
+n@receiver_sv_unit
+XReceiverBase_sv_unit
+R25
+R13
+R11
+Z33 !s110 1730514858
+!i10b 1
+!s100 C^`cREKVBPC0Ufbig]mT;1
+IZA`X>]Mb0GmACFQ_O5aE`0
+VZA`X>]Mb0GmACFQ_O5aE`0
+!i103 1
+S1
+R6
+R15
+8D:/6. 20241/3. Verify/LAB/Lab3/ReceiverBase.sv
+FD:/6. 20241/3. Verify/LAB/Lab3/ReceiverBase.sv
+R29
+R16
+L0 5
+R8
+r1
+!s85 0
+31
+Z34 !s108 1730514858.000000
+!s107 data_defs.v|OutputPacket.sv|D:/6. 20241/3. Verify/LAB/Lab3/ReceiverBase.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/6. 20241/3. Verify/LAB/Lab3/ReceiverBase.sv|
+!i113 0
+R12
+R2
+n@receiver@base_sv_unit
+XScoreboard_sv_unit
+R11
+R33
+!i10b 1
+!s100 Vhh;KISCFXHd4bYfWaD]80
+IeY:]46d1e9a<F9eiKG4gH2
+VeY:]46d1e9a<F9eiKG4gH2
+!i103 1
+S1
+R6
+R15
+8D:/6. 20241/3. Verify/LAB/Lab3/Scoreboard.sv
+FD:/6. 20241/3. Verify/LAB/Lab3/Scoreboard.sv
+R17
+R16
+R29
+L0 5
+R8
+r1
+!s85 0
+31
+R3
